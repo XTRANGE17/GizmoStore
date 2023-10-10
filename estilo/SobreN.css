@@ -1,0 +1,238 @@
+/* Barra de nav */
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	text-align: justify;
+	font-family: 'Josefin Sans';
+	position: relative;
+	min-height: 100vh;
+}
+
+header{
+	background-color: black;
+	
+}
+
+.contrainer{
+	position: absolute;
+	left: 550px;
+	top: 30px;
+}
+
+
+
+ input{
+ 	width: 500px;
+ 	padding: 10px;
+ 	padding-right: 35px;
+ 	border-radius: 25px;
+ 	border: 0;
+ 	outline: none;
+ 	font-size: 1rem;
+ }
+
+ button{
+ 	background-color: #999999;
+ 	padding: 11.2px 15px;
+ 	position: relative;
+ 	border: 0;
+ 	top: -1px;
+ 	right: 47px;
+ 	margin: auto;
+ 	border-radius: 0 25px 25px 0;
+ 	color: #ffff;
+ 	cursor: pointer;
+ }
+
+ button:hover{
+ 	background-color: #777777 ;
+ }
+
+header img{
+	padding-left:400px;
+	height: 100px;
+}
+
+
+nav{
+       height: 60px;
+       background-color:#a7a7a7;
+       text-align: center;
+     }
+
+     nav li{
+	line-height: 40px;
+
+
+}
+
+
+nav ul{
+        list-style: none;
+        display: inline-block;
+        padding:0px;
+     }
+
+#menu{
+	margin: auto;
+	text-align: center;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+.nav li a{
+	background-color: #a7a7a7;
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.nav > li{
+
+	float: left;
+}
+
+.nav li a:hover{
+	background-color: white;
+	color: black;
+	
+}
+
+.sub li a{
+	background-color: black;
+	color: white;
+}
+
+.nav li ul{
+	
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover > ul{
+	display: block;
+
+}
+
+.nav li ul li{
+
+	position: relative;
+}
+
+.nav li ul li ul{
+	right: -140px;
+	top: 0px;
+}
+
+
+
+/* Footer */
+
+.footer{
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	font-family: 'Josefin Sans' sans-serif;
+}
+
+.inn{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+.social{
+	display: flex;
+}
+
+.social ul{
+	display: flex;
+
+	
+	padding: 12px;
+	width: 500px;
+	height: 25px;
+	margin: auto;
+}
+
+
+.social-i{
+
+	
+	list-style: none;
+}
+
+.social-i a{
+	text-decoration: none;
+	padding: 0px 40px;
+	margin: auto;
+	font-size: 20px;
+	color: white;
+}
+
+/*article*/
+
+
+
+.cont{
+	display: flex;
+}
+
+.parr{
+	display: flex;
+	margin: auto;
+}
+
+h2{
+	margin-left: 50px;
+	margin-top: 50px;
+	font-family: 'Josefin Sans' sans-serif;
+}
+
+h1{
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-right: 350px;
+	font-family: 'Josefin Sans' sans-serif;
+	font-size: 25px;
+}
+
+.p1{
+	font-family: 'Josefin Sans' sans-serif;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.p2{
+	font-family: 'Josefin Sans' sans-serif;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.p3{
+	font-family: 'Josefin Sans' sans-serif;
+	margin-left: 50px;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
