@@ -139,10 +139,13 @@ ul, ol{
 
 #conteItemsCarrucel{
 
-	height: 500px;
+	height: 600px;
+	width: 1100px;
 	overflow: hidden;
+	margin-left: 200px;
 
 }
+
 
 
 /*margin-top: 70px;*/
