@@ -1,0 +1,366 @@
+/* Barra de nav */
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    text-align: justify;
+    font-family: 'Josefin Sans';
+    position: relative;
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    
+}
+
+.contrainer{
+    position: absolute;
+    left: 550px;
+    top: 30px;
+}
+
+
+
+ input{
+    width: 500px;
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 25px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+ }
+
+ button{
+    background-color: #999999;
+    padding: 11.2px 15px;
+    position: relative;
+    border: 0;
+    top: -1px;
+    right: 47px;
+    margin: auto;
+    border-radius: 0 25px 25px 0;
+    color: #ffff;
+    cursor: pointer;
+ }
+
+ button:hover{
+    background-color: #777777 ;
+ }
+
+header img{
+    padding-left:400px;
+    height: 100px;
+}
+
+
+nav{
+       height: 60px;
+       background-color:#a7a7a7;
+       text-align: center;
+     }
+
+     nav li{
+    line-height: 40px;
+
+
+}
+
+
+nav ul{
+        list-style: none;
+        display: inline-block;
+        padding:0px;
+     }
+
+#menu{
+    position: sticky;
+    margin: auto;
+    text-align: center;
+    z-index: 4
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav li a{
+    background-color: #a7a7a7;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+
+}
+
+.nav > li{
+
+    float: left;
+}
+
+.nav li a:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.sub li a{
+    background-color: black;
+    color: white;
+}
+
+.nav li ul{
+    
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+
+}
+
+.nav li ul li{
+
+    position: relative;
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    position: relative;
+    
+    bottom: 0px;
+    font-family: 'Josefin Sans';
+}
+
+.inn{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.social{
+    display: flex;
+}
+
+.social ul{
+    display: flex;
+
+    
+    padding: 12px;
+    
+    margin: auto;
+}
+
+
+.social-i{
+
+    
+    list-style: none;
+}
+
+.social-i a{
+    text-decoration: none;
+    padding: 0px 40px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+}
+
+/*article*/
+
+
+
+.cont{
+    display: flex;
+}
+
+.parr{
+    display: flex;
+    margin: auto;
+}
+
+.h2{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h1{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 500px;
+}
+
+.p1{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.p2{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.p3{
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+
+
+/*imagenes*/
+
+
+
+.imagens{
+    width:center; 
+    height:200px;
+    display: flex;
+    justify-content: right;
+    margin-right: 250px;
+    flex-direction: row;
+
+}
+
+
+.item img{
+    width:150px;
+    height:150px;
+    padding: 10px;
+    padding-right: 40px;
+    justify-content: center;
+}
+
+.imagens2{
+    width:center; 
+    height:200px;
+    display: flex;
+    justify-content: right;
+    margin-right: 250px;
+    flex-direction: row;
+}
+
+.contactos{
+    width:center; 
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    margin-right: 390px;
+    flex-direction: row;
+    margin-top: -460px;
+}
+
+.T{
+    border-left: 3px solid rgb(167, 167, 167);
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    margin-left: 3px;
+    top: 200px;
+    border-radius: 20px;
+    z-index: 2
+}
+
+
+/*COMENTARIOS*/
+.container-form{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 20px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+.container-form p{
+    font-family: 'Josefin Sans' sans-serif Light;
+    font-size: 15px;
+    line-height: 0.25;
+    margin-bottom: 35px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 300;
+}
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+
+
+.container-form form .campo, textarea button{
+    width: 50%;
+    padding: 15px 10px;
+    font-size: 12px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.ver{
+    display: none;
+
+}
+.container-form form textarea{
+    max-width: 400px;
+    min-width: 335px;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    outline: 0px;
+    background: #000000;
+    margin-right: 300px;
+    margin-top: 25px ;
+    margin-left: 40px;
+    width: 270px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: #777777;
+    margin right: 300px;
+}
+
+.checkbox-group {
+  display: block;
+  align-items: center;
+}
+
+.politicas {
+  margin-left: 10px;
+  width: 10px;
+}
+
+

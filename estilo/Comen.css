@@ -228,7 +228,8 @@ h1{
 	height:200px;
 	display: flex;
 	justify-content: right;
-	margin-right: 250px;
+	margin-right: 200px;
+
 	flex-direction: row;
 }
 
@@ -246,7 +247,7 @@ h1{
 	height:200px;
 	display: flex;
 	justify-content: right;
-	margin-right: 250px;
+	margin-right: 200px;
 	flex-direction: row;
 }
 
@@ -255,7 +256,7 @@ h1{
 	height: 100px;
 	display: flex;
 	justify-content: right;
-	margin-right: 395px;
+	margin-right: 320px;
 	flex-direction: row;
 }
 
@@ -294,7 +295,7 @@ h1{
     font-size: 17px;
     display: inline-block;
     text-decoration: none;
-    width: 100%;
+
     margin-bottom: 10px;
     color: black;
     font-weight: 300;
