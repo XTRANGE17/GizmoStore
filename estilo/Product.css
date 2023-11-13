@@ -155,9 +155,9 @@ ul, ol{
 	height: 100%;
 	position: relative;
 	z-index: 2
-	webkit-transform: translateX(50px); /* Chrome y Safari */
-    -ms-transform: translateX(50px); /* Internet Explorer */
-    transform: translateX(50px); 
+	webkit-transform: translateX(0px); /* Chrome y Safari */
+    -ms-transform: translateX(0px); /* Internet Explorer */
+    transform: translateX(0px); 
 
 }
 
