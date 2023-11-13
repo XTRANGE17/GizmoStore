@@ -94,7 +94,7 @@ ul, ol{
 	display: block;
 	webkit-transform: translateX(50px); /* Chrome y Safari */
     -ms-transform: translateX(50px); /* Internet Explorer */
-    transform: translateX(50px); 
+    transform: translateX(0px); 
 }
 
 .nav > li{
